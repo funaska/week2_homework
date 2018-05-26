@@ -1,5 +1,7 @@
 import string
 
+answers_dict = {"привет": "И тебе привет!", "как дела": "Лучше всех", "пока": "Увидимся"}
+
 def get_answer(question):
 	answers_dict = {"привет": "И тебе привет!", "как дела": "Лучше всех", "пока": "Увидимся"}
 	# table = question.maketrans({key: None for key in string.punctuation})
